@@ -3,8 +3,8 @@ const fontname = "Barlow";
 const fontweights = [300, 400]
 
 // Color properties
-const basecolor = "#6c757d";
-const accentcolor = "#222";
+const basecolor = "#222222";
+const accentcolor = "#0062cc";
 const highlightcolor = "#111";
 
 // const basecolor = "#888";
@@ -32,21 +32,21 @@ const menudecoration = "none";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = accentcolor;
+const headercolor = "#6c757d";
 const headerfontsize = "18pt";
 const headerdecoration = "none";
-const namecolor = accentcolor;
+const namecolor = highlightcolor;
 const namefontsize = "23pt";
 
 
 // Publication properties
-const ptitlecolor = accentcolor;
+const ptitlecolor = "accentcolor";
 const ptitlefontsize = bodyfontsize;
 const ptitleweight = bodyfontweight;
 const ptitledecoration = "none";
 const ptitlestyle = "normal";
 
-const authorcolor = accentcolor;
+const authorcolor = "#6c757d";
 const authorweight = bodyfontweight;
 const authordecoration = "none";
 const authorstyle = "normal";
@@ -63,7 +63,7 @@ const tagstyle = "normal";
 
 const insttitlecolor = highlightcolor;
 const insttitlesize = "12px";
-const instyearcolor = accentcolor;
+const instyearcolor = highlightcolor;
 const instyearsize = "11px";
 
 //     .institution {
@@ -103,6 +103,7 @@ $(".papertitle").css("font-weight", ptitleweight);
 $(".papertitle").css("text-decoration", ptitledecoration);
 $(".papertitle").css("font-style", ptitlestyle);
 
+$(".defaultauthor").css("color", authorcolor);
 $(".thisauthor").css("color", selfcolor);
 $(".thisauthor").css("font-weight", selfweight);
 $(".thisauthor").css("text-decoration", selfdecoration);
