@@ -37,6 +37,8 @@ const headerfontsize = "18pt";
 const headerdecoration = "none";
 const namecolor = highlightcolor;
 const namefontsize = "23pt";
+const subnamecolor = highlightcolor;
+const subnamefontsize = "14pt";
 
 
 // Publication properties
@@ -96,6 +98,8 @@ $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
+$(".subname").css("color", subnamecolor);
+$(".subname").css("font-size", subnamefontsize);
 
 $(".papertitle").css("color", ptitlecolor);
 $(".papertitle").css("font-size", ptitlefontsize);

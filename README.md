@@ -1,2 +1,2 @@
-# Ameya's Academic Webpage
-Visit my website [here](https://ameya98.github.io/)! Template forked from [Sebastin Santy](http://sebastinsanty.com/).
+# Arvindh's Academic Webpage
+Visit my website [here](https://arvindh75.github.io/)! Template forked from [Sebastin Santy](http://sebastinsanty.com/).
