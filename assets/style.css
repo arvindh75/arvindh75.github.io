@@ -54,6 +54,12 @@ a:hover {
             min-height:100%; */
         position: fixed;
     }
+    .expicon {
+        width:200% !important;
+    }
+    .expdetails {
+        padding-left:50px !important;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -77,8 +83,37 @@ a:hover {
         padding-top: 18px !important;
     }
 
+    .expicon {
+        width:20% !important;
+    }
+    .expdetails {
+        padding-left:2 !important;
+    }
+
 }
 
+.expmeta {
+
+}
+
+.expjob {
+  font-weight: 400;
+  font-size: 14pt;
+  color:#111;
+}
+
+.expduration {
+
+}
+
+.expdetails {
+
+}
+
+.expdesc{
+
+
+}
 /* .thisauthor {
           color: #111;
           text-decoration: underline;
