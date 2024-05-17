@@ -1,5 +1,6 @@
 .instilogo {
-    height: 50px;
+    height: 70px;
+    padding-right: 100px;
     filter: grayscale(20%);
 }
 
@@ -42,8 +43,8 @@ a:hover {
 }
 
 .profilepic {
-    width: 150px;
-    border-radius: 40%;
+    width: 170px;
+    border-radius: 10%;
     /* filter: grayscale(100%); */
 }
 
@@ -53,6 +54,13 @@ a:hover {
             margin-left: 50%;
             min-height:100%; */
         position: fixed;
+    }
+
+    .expicon {
+        width:200% !important;
+    }
+    .expdetails {
+        padding-left:50px !important;
     }
 }
 
@@ -66,8 +74,8 @@ a:hover {
     }
 
     .profilepic {
-        width: 90px;
-        border-radius: 40%;
+        width: 150px;
+        border-radius: 10%;
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         /* filter: grayscale(100%); */
@@ -77,9 +85,53 @@ a:hover {
         padding-top: 18px !important;
     }
 
+    .expicon {
+        width:20% !important;
+    }
+    .expdetails {
+        padding-left:2 !important;
+    }
+
 }
 
 /* .thisauthor {
           color: #111;
           text-decoration: underline;
     } */
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    color: #fff; /* white color */
+    background-color: #096e7a; /* gold background */
+}
+
+.expmeta {
+
+}
+
+.expjob {
+  font-weight: 400;
+  font-size: 14pt;
+  color:#111;
+}
+
+.expduration {
+
+}
+
+.expdetails {
+
+}
+
+.expdesc{
+
+
+}

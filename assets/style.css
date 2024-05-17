@@ -42,8 +42,8 @@ a:hover {
 }
 
 .profilepic {
-    width: 175px;
-    border-radius: 10%;
+    width: 150px;
+    border-radius: 40%;
     /* filter: grayscale(100%); */
 }
 
@@ -53,12 +53,6 @@ a:hover {
             margin-left: 50%;
             min-height:100%; */
         position: fixed;
-    }
-    .expicon {
-        width:200% !important;
-    }
-    .expdetails {
-        padding-left:50px !important;
     }
 }
 
@@ -73,7 +67,7 @@ a:hover {
 
     .profilepic {
         width: 90px;
-        border-radius: 10%;
+        border-radius: 40%;
         padding-top: 0px !important;
         padding-bottom: 0px !important;
         /* filter: grayscale(100%); */
@@ -83,37 +77,8 @@ a:hover {
         padding-top: 18px !important;
     }
 
-    .expicon {
-        width:20% !important;
-    }
-    .expdetails {
-        padding-left:2 !important;
-    }
-
 }
 
-.expmeta {
-
-}
-
-.expjob {
-  font-weight: 400;
-  font-size: 14pt;
-  color:#111;
-}
-
-.expduration {
-
-}
-
-.expdetails {
-
-}
-
-.expdesc{
-
-
-}
 /* .thisauthor {
           color: #111;
           text-decoration: underline;

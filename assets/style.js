@@ -3,8 +3,8 @@ const fontname = "Barlow";
 const fontweights = [300, 400]
 
 // Color properties
-const basecolor = "#222222";
-const accentcolor = "#0062cc";
+const basecolor = "#888";
+const accentcolor = "#222";
 const highlightcolor = "#111";
 
 // const basecolor = "#888";
@@ -32,23 +32,21 @@ const menudecoration = "none";
 // const menuhoverdecoration = "none"; //none, underline, overline, dotted, color (https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
 
 // Header properties
-const headercolor = "#6c757d";
+const headercolor = accentcolor;
 const headerfontsize = "18pt";
 const headerdecoration = "none";
-const namecolor = highlightcolor;
+const namecolor = accentcolor;
 const namefontsize = "23pt";
-const subnamecolor = highlightcolor;
-const subnamefontsize = "14pt";
 
 
 // Publication properties
-const ptitlecolor = "accentcolor";
+const ptitlecolor = accentcolor;
 const ptitlefontsize = bodyfontsize;
-const ptitleweight = 400;
+const ptitleweight = bodyfontweight;
 const ptitledecoration = "none";
 const ptitlestyle = "normal";
 
-const authorcolor = "#6c757d";
+const authorcolor = accentcolor;
 const authorweight = bodyfontweight;
 const authordecoration = "none";
 const authorstyle = "normal";
@@ -65,7 +63,7 @@ const tagstyle = "normal";
 
 const insttitlecolor = highlightcolor;
 const insttitlesize = "12px";
-const instyearcolor = highlightcolor;
+const instyearcolor = accentcolor;
 const instyearsize = "11px";
 
 //     .institution {
@@ -98,8 +96,6 @@ $(".header").css("font-size", headerfontsize);
 $(".header").css("text-decoration", headerdecoration);
 $(".name").css("color", namecolor);
 $(".name").css("font-size", namefontsize);
-$(".subname").css("color", subnamecolor);
-$(".subname").css("font-size", subnamefontsize);
 
 $(".papertitle").css("color", ptitlecolor);
 $(".papertitle").css("font-size", ptitlefontsize);
@@ -107,7 +103,6 @@ $(".papertitle").css("font-weight", ptitleweight);
 $(".papertitle").css("text-decoration", ptitledecoration);
 $(".papertitle").css("font-style", ptitlestyle);
 
-$(".defaultauthor").css("color", authorcolor);
 $(".thisauthor").css("color", selfcolor);
 $(".thisauthor").css("font-weight", selfweight);
 $(".thisauthor").css("text-decoration", selfdecoration);
