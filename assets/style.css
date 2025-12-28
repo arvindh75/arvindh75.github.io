@@ -302,10 +302,34 @@ h1, h2, h3 {
     font-family: var(--font-mono);
 }
 
+/* --- Keywords Section --- */
+.keywords-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 1.2em 0;
+}
+
+.keyword-tag {
+    display: inline-block;
+    padding: 4px 10px;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    color: var(--text-sub);
+    background: #f5f5f5;
+    border-radius: 4px;
+    transition: color 0.2s ease;
+}
+
+.keyword-tag:hover {
+    color: var(--text-main);
+}
+
 @media (max-width: 768px) {
     .sidebar { text-align: center; }
     .profile-img { margin: 0 auto 1.5rem; }
     .nav-links a { display: inline-block; margin: 0 10px; }
     .news-date { display: block; margin-bottom: 2px; }
     .news-item { display: block; }
+    .keywords-container { justify-content: center; }
 }
