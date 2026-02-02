@@ -325,6 +325,15 @@ h1, h2, h3 {
     color: var(--text-main);
 }
 
+/* --- Inline Logos --- */
+.inline-logo {
+    height: 1.1em;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 3px;
+    border-radius: 3px;
+}
+
 @media (max-width: 768px) {
     .sidebar { text-align: center; }
     .profile-img { margin: 0 auto 1.5rem; }
